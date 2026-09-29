@@ -1,0 +1,176 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+  <linearGradient id="background" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#0B0B0B"/>
+    <stop offset="0.5" stop-color="#141414"/>
+    <stop offset="1" stop-color="#0B0B0B"/>
+  </linearGradient>
+
+  <linearGradient id="accent" x1="300" y1="0" x2="900" y2="420" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#F6C7A7"/>
+    <stop offset="0.5" stop-color="#E9A8C5"/>
+    <stop offset="1" stop-color="#A8C7E8"/>
+  </linearGradient>
+
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="8"/>
+  </filter>
+
+  <filter id="smallGlow">
+    <feGaussianBlur stdDeviation="3"/>
+  </filter>
+</defs>
+
+<!-- Background -->
+
+<rect width="1200" height="420" rx="28" fill="url(#background)"/>
+
+<!-- Ambient glow -->
+
+<circle cx="180" cy="80" r="110" fill="#E9A8C5" opacity="0.07" filter="url(#glow)">
+  <animate
+    attributeName="opacity"
+    values="0.03;0.09;0.03"
+    dur="5s"
+    repeatCount="indefinite"/>
+</circle>
+
+<circle cx="1030" cy="330" r="130" fill="#A8C7E8" opacity="0.06" filter="url(#glow)">
+  <animate
+    attributeName="opacity"
+    values="0.02;0.08;0.02"
+    dur="6s"
+    repeatCount="indefinite"/>
+</circle>
+
+<!-- Grid -->
+
+<g opacity="0.08">
+  <path d="M0 80H1200"/>
+  <path d="M0 160H1200"/>
+  <path d="M0 240H1200"/>
+  <path d="M0 320H1200"/>
+
+  <path d="M100 0V420"/>
+  <path d="M200 0V420"/>
+  <path d="M300 0V420"/>
+  <path d="M400 0V420"/>
+  <path d="M500 0V420"/>
+  <path d="M600 0V420"/>
+  <path d="M700 0V420"/>
+  <path d="M800 0V420"/>
+  <path d="M900 0V420"/>
+  <path d="M1000 0V420"/>
+  <path d="M1100 0V420"/>
+</g>
+
+<!-- Floating particles -->
+
+<g fill="url(#accent)">
+
+  <circle cx="105" cy="115" r="3">
+    <animate attributeName="cy"
+      values="115;95;115"
+      dur="4s"
+      repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="1080" cy="105" r="2">
+    <animate attributeName="cy"
+      values="105;125;105"
+      dur="3s"
+      repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="930" cy="55" r="2">
+    <animate attributeName="cy"
+      values="55;40;55"
+      dur="4.5s"
+      repeatCount="indefinite"/>
+  </circle>
+
+</g>
+
+<!-- Small label -->
+
+<text
+x="600"
+y="105"
+text-anchor="middle"
+fill="#B5B5B5"
+font-family="Arial, Helvetica, sans-serif"
+font-size="15"
+letter-spacing="5">
+DATA · SOFTWARE · AI </text>
+
+<!-- Main name -->
+
+<text
+x="600"
+y="190"
+text-anchor="middle"
+fill="#F5F5F5"
+font-family="Arial, Helvetica, sans-serif"
+font-size="64"
+font-weight="700"
+letter-spacing="12">
+AILEEN </text>
+
+<text
+x="600"
+y="245"
+text-anchor="middle"
+fill="url(#accent)"
+font-family="Arial, Helvetica, sans-serif"
+font-size="30"
+font-weight="400"
+letter-spacing="8">
+PAVEY </text>
+
+<!-- Decorative line -->
+
+<line
+x1="430"
+y1="280"
+x2="770"
+y2="280"
+stroke="url(#accent)"
+stroke-width="1"
+opacity="0.6"/>
+
+<!-- Tagline -->
+
+<text
+x="600"
+y="325"
+text-anchor="middle"
+fill="#C8C8C8"
+font-family="Arial, Helvetica, sans-serif"
+font-size="16"
+letter-spacing="2">
+building · learning · exploring </text>
+
+<!-- Animated cursor -->
+
+<rect
+x="780"
+y="309"
+width="2"
+height="20"
+fill="#F6C7A7"> <animate
+ attributeName="opacity"
+ values="1;0;1"
+ dur="1s"
+ repeatCount="indefinite"/> </rect>
+
+<!-- Bottom accent -->
+
+<path
+d="M70 380 C300 350 450 410 600 380 C750 350 900 410 1130 380"
+stroke="url(#accent)"
+stroke-width="1"
+fill="none"
+opacity="0.5"/>
+
+</svg>
