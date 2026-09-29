@@ -96,17 +96,9 @@ Prompting
 
 **Digital Notebook**
 
-A mobile notebook inspired by the feeling of writing in a physical notebook.
+A digital notebook project built around a book-inspired, handwritten-note experience.
 
 **React Native · Expo · Supabase**
-
-Currently building and refining the experience.
-
-<br>
-
-<a href="https://github.com/AileenPavey">
-View project →
-</a>
 
 </td>
 
@@ -116,15 +108,9 @@ View project →
 
 **Real-time conversational application**
 
-Built while exploring how a traditional Java application can communicate with an external LLM.
+A Java-based chatbot exploring real-time communication and integration with an external AI API.
 
-**Java · JDBC · MySQL · WebSocket · Cohere API**
-
-<br>
-
-<a href="https://github.com/AileenPavey">
-View project →
-</a>
+**Java · JDBC · MySQL · Jakarta WebSocket · Cohere API · JSON**
 
 </td>
 
@@ -138,36 +124,79 @@ View project →
 
 **Automated attendance system**
 
-Uses facial recognition to automate student check-ins.
+A web-based attendance project using facial recognition for student check-ins.
 
-**Python · Node.js · Express · MySQL**
-
-<br>
-
-<a href="https://github.com/AileenPavey">
-View project →
-</a>
+**Python · Node.js · Express.js · MySQL · HTML**
 
 </td>
 
 <td width="50%" valign="top">
 
-### 💧 AquaSense
+### 💼 Skill-Based Job Matching
 
-**Smart Water Monitoring**
+**Job matching application**
 
-An IoT project for monitoring water quality using sensors connected to an ESP32 and Arduino IoT Cloud.
+A project focused on matching users with opportunities based on relevant skills.
 
-**ESP32 · IoT · Arduino Cloud · Python**
+**Node.js · Express.js · MySQL**
 
-🏆 Smart India Hackathon Internal Winner
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top">
+
+### 🍳 Recipe & Grocery Planning
+
+**Recipe and grocery management**
+
+A web application combining recipe planning with grocery management.
+
+**Node.js · Express.js · MySQL**
+
+</td>
+
+<td width="50%" valign="top">
+
+### 📊 Telecom Customer Churn Analysis
+
+**Data analysis & visualization**
+
+A data analysis project exploring customer churn and presenting insights through dashboards and visualizations.
+
+**Power BI · Excel · Data Visualization**
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top">
+
+### 💧 Smart Water Monitoring & Quality Analytics
+
+**IoT & water-quality monitoring**
+
+An IoT-based project involving sensor data collection, monitoring, and visualization.
+
+**ESP32 · Arduino IoT Cloud · IoT Sensors · Python**
+
+</td>
+
+<td width="50%" valign="top">
+
+### ✦ More details
+
+Each project represents a different part of my learning journey — from application development and databases to data analysis, IoT, and AI.
 
 </td>
 
 </tr>
 </table>
 
----
 
 ## `04` — My toolbox
 
